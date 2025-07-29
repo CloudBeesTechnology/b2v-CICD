@@ -90,6 +90,7 @@ class _HomePageState extends State<HomePage> {
                   Row(
                     children: [
                       CircleAvatar(
+
                       radius: SizeConfig.height(24),
                         backgroundImage: userProvider.currentUserDetails?.profilePhoto != null
                             ? NetworkImage(userProvider.currentUserDetails!.profilePhoto!)
