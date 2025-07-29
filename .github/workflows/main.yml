@@ -35,6 +35,8 @@ jobs:
           echo "keyPassword=${{ secrets.KEY_PASSWORD }}" >> android/app/key.properties
           echo "keyAlias=upload" >> android/app/key.properties
           echo "storeFile=upload-keystore.jks" >> android/app/key.properties
+      - name: Verify key.properties
+        run: cat android/app/key.properties
 
       - name: Build App Bundle
         run: flutter build appbundle --release
