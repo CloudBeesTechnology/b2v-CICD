@@ -84,6 +84,7 @@ class _LeavePageState extends State<LeavePage> with SingleTickerProviderStateMix
           ),
         ),
         backgroundColor: Colors.white,
+
         body: TabBarView(
           children: [
             _buildLeaveListView(leaveProvider.pending,'Pending'),
