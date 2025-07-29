@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "749876274717",
+    "project_id": "b2vtechnew",
+    "storage_bucket": "b2vtechnew.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749876274717:android:5d9a7a08c6575e391d88f4",
+        "android_client_info": {
+          "package_name": "com.example.b2v_admin_panel"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAb8Ls3_9wrcreWlGIf6ngMwY_sRrrLp7U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
